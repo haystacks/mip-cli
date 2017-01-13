@@ -1,3 +1,5 @@
+> 非官方版本，在官方版本的基础上添加了validate检测本地资源链接
+
 # MIP CLI 工具
 
 MIP脚手架.
@@ -90,8 +92,14 @@ $ mip addelement mip-demo
 ----
 验证mip网页：
 
+- file  
 ``` bash
 $ mip validate index.html [...]
+```
+
+- url
+``` bash
+$ mip validate http(s)://127.0.0.1
 ```
 
 ![](./example/mip-validate.png)
